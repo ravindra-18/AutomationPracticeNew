@@ -1,0 +1,17 @@
+This is for run selenium grid setup without docker
+/cmd command= java -jar selenium-server-4.29.0.jar standalone(important) 
+folder name=C:\selenium_grid_server
+
+
+docker command for grid network (docker only supports linux operating system)
+1 first we pull the images with respected versions or any specific 
+command on cmd are 
+--------------------
+docker pull selenium/hub:4.20.0
+docker pull selenium/node-chrome:4.20.0
+docker pull selenium/node-firefox:4.20.0
+
+2. then we need to run below command for to setup grid environment
+----------------
+docker compose up -d
+

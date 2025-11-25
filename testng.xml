@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="methods">
+  <test name="Test1">
+    <classes>
+      <class name="NewAutomationSeries.ThreadSafetyConcepts">
+        <methods>
+          <include name="mytest1"/>
+          <include name="mytest2"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

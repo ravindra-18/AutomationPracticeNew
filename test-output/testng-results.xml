@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-24T10:02:13 IST" name="Suite" finished-at="2025-11-24T10:02:24 IST" duration-ms="10920">
+    <groups>
+    </groups>
+    <test started-at="2025-11-24T10:02:13 IST" name="chromeTest" finished-at="2025-11-24T10:02:20 IST" duration-ms="6652">
+      <class name="com.selenium.grid.SeleniumGridUsingDockerLinux">
+        <test-method signature="launchGridEnv(java.lang.String)[pri:0, instance:com.selenium.grid.SeleniumGridUsingDockerLinux@f79e]" started-at="2025-11-24T10:02:13 IST" name="launchGridEnv" finished-at="2025-11-24T10:02:20 IST" duration-ms="6584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchGridEnv -->
+      </class> <!-- com.selenium.grid.SeleniumGridUsingDockerLinux -->
+    </test> <!-- chromeTest -->
+    <test started-at="2025-11-24T10:02:13 IST" name="firefoxTest" finished-at="2025-11-24T10:02:24 IST" duration-ms="10920">
+      <class name="com.selenium.grid.SeleniumGridUsingDockerLinux">
+        <test-method signature="launchGridEnv(java.lang.String)[pri:0, instance:com.selenium.grid.SeleniumGridUsingDockerLinux@3857f613]" started-at="2025-11-24T10:02:13 IST" name="launchGridEnv" finished-at="2025-11-24T10:02:24 IST" duration-ms="10859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchGridEnv -->
+      </class> <!-- com.selenium.grid.SeleniumGridUsingDockerLinux -->
+    </test> <!-- firefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
